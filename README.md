@@ -1,17 +1,27 @@
-# lab_exam_2untitled2
+# News-reader
 
-A new Flutter project.
+A Flutter News Reader application built with state management (`provider`) and REST API integration.
+
+## Features
+- Fetches articles from JSONPlaceholder REST API using `http`.
+- Separates business logic from UI using `provider` package (`ChangeNotifier`).
+- Displays Loading, Error (with retry button), and Success states.
+- List view display using `ListView.builder`.
+- Real-time search box to filter articles by title.
+- Article Detail screen accessible by tapping any article.
+- Favorites functionality with total favorite count displayed in the AppBar.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/CallMeNoona23/News-reader.git
+   ```
+2. Fetch dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Run the application:
+   ```bash
+   flutter run
+   ```
